@@ -17,8 +17,8 @@ div{
 
 img {
     border: 1rem solid white;
-/*     ftransition: transform;
- */    
+    transition: box-shadow;
+    
 }
 
 /* ********************* def Animation *********** */
@@ -36,7 +36,7 @@ img {
 /* **************** style Animation *********** */
 
 @keyframes shaddow {
-    0%{box-shadow: 2rem 2rem 2rem 1rem yellow, 3rem 1rem 2rem 2rem orange ;
+    0%{ box-shadow: 2rem 2rem 2rem 1rem yellow, 3rem 1rem 2rem 2rem orange ;
     }
 
     25%{  box-shadow: -2rem -2rem 2rem 1rem rgb(221, 230, 156); 
