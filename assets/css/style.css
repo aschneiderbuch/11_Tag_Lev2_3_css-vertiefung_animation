@@ -17,33 +17,48 @@ div{
 
 img {
     border: 1rem solid white;
-    
+/*     ftransition: transform;
+ */    
 }
 
 /* ********************* def Animation *********** */
 
-.animation{
+.animation:hover {
     animation-name: shaddow;
+    animation-duration: 3000ms;
 
-    animation-duration: 8s;
+    animation-iteration-count: 10;
 
-    animation-iteration-count: 100;
-
-    animation-timing-function: linear;
+    animation-timing-function: ease-in-out;
 }
 
 
 /* **************** style Animation *********** */
 
-@keyframes shaddow{
-    0%{ transform: box-shadow 2rem 2rem 2rem yellow; ;
-        transform: translate(0px, 0px);
+@keyframes shaddow {
+    0%{box-shadow: 2rem 2rem 2rem 1rem yellow, 3rem 1rem 2rem 2rem orange ;
     }
 
+    25%{ transform: box-shadow -2rem -2rem -6rem -10rem rgb(229, 6, 43); 
+    }
+    40%{ transform: box-shadow -4rem -4rem -4rem -4rem rgb(93, 218, 131); 
+    }
 
-
-
-100% { transform: box-shadow 5rem 1rem 4rem orange; 
-    transform: translate(100px 100px);
+100% { transform: box-shadow 5rem 1rem 4rem 5rem rgb(255, 102, 0); 
 }
+}/* 
+0%,100% {
+    box-shadow: 27px 27px 35px 24px #dee791,-27px -27px 35px 24px #c6e9f3;
 }
+33% {
+    box-shadow: 27px 27px 35px 24px #f6ead1,-27px -27px 35px 24px #f6ead1;
+}
+66% {
+    box-shadow: 27px 27px 35px 24px #c6e9f3,-27px -27px 35px 24px #dee791;
+}
+80% {
+    box-shadow: 27px 27px 35px 24px #f6ead1,-27px -27px 35px 24px #f6ead1;
+}
+90% {
+    box-shadow: 27px 27px 35px 14px #f6ead1,-27px -27px 35px 14px #f6ead1;
+} */
