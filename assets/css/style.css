@@ -46,19 +46,4 @@ img {
 
 100% { transform: box-shadow 5rem 1rem 4rem 5rem rgb(255, 102, 0); 
 }
-}/* 
-0%,100% {
-    box-shadow: 27px 27px 35px 24px #dee791,-27px -27px 35px 24px #c6e9f3;
 }
-33% {
-    box-shadow: 27px 27px 35px 24px #f6ead1,-27px -27px 35px 24px #f6ead1;
-}
-66% {
-    box-shadow: 27px 27px 35px 24px #c6e9f3,-27px -27px 35px 24px #dee791;
-}
-80% {
-    box-shadow: 27px 27px 35px 24px #f6ead1,-27px -27px 35px 24px #f6ead1;
-}
-90% {
-    box-shadow: 27px 27px 35px 14px #f6ead1,-27px -27px 35px 14px #f6ead1;
-} */
