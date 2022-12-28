@@ -46,6 +46,6 @@ img {
 
     60%{  box-shadow: 2rem -2rem 100rem 1rem rgb(227, 51, 11)
     }
-100% {  box-shadow 5rem 1rem 4rem 5rem rgb(255, 102, 0); 
+100% {  box-shadow: 5rem 1rem 4rem 5rem rgb(255, 102, 0); 
 }
 }
